@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Love+Ya+Like+A+Sister&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    margin: 0px auto;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    
+    background-color: black;
+
+}
+nav{
+    /* border: 1px solid white; */
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav>.logo{
+    border: 1px solid white;
+    margin-left: 150px;
+}
+nav>.logo>img{
+    /* width: 250px; */
+    height: 80px; 
+}
+
+.links{
+    /* border: 1px solid white; */
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    
+}
+.links>button{
+    width: 100px;
+    height: 70px;
+    border: none;
+    font-size: 16px;
+    background-color: black;
+}
+.links>button>a{
+    color: white;
+    text-decoration: none;
+}
+.links>.franchise-btn{
+    border: 1px solid white;
+    height: 45px;
+    width: 160px;
+    border-radius: 30px;
+}
+.online-order-btn{
+/* border: 1px solid white; */
+width: 160px;
+height: 50px;
+background-color: red;
+border-radius: 30px;
+display: flex;
+align-items: center;
+/* position: relative; */
+}
+
+.online-order-btn>button{
+    border: none;
+}
+
+.online-order-btn>button>a{
+    text-decoration: none;
+    color: white;
+    background-color: red;
+    font-size: 17px;
+}
+.online-order-btn>a{
+    text-decoration: none;
+}
+
+
+.go-to-next{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%; 
+    background-color: white;    
+
+}
+
+
+.go-to-next>a>i{
+    color: red;
+    text-decoration: none;
+}
+
+.hero-section-img>img{
+    width: 100%;
+}
+.main-section-for-cards{
+    height: 70vh;
+}
+.main-section-headings{
+    color: white;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.main-section-headings> h1{
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+.main-cards{
+display: flex;
+width: 75%;
+margin-top: 30px;
+}
+.card{
+    border: 1px solid blue;
+    width: 240px;
+    height: 440px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.card>.card-image>img{
+    background-color: white;
+    width: 100%;
+    object-fit: cover;
+    height: 380px;
+}
+
+
+.contact-section{
+    border: 1px solid blue;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-left: 50px;
+    /* height: 100vh; */
+}
+.contact--headings>span, h1, p{
+color: white;
+text-align: center;
+line-height: 40px;
+font-family: Arial, Helvetica, sans-serif;
+}
+.contact-section-headings>h1>span{
+    font-family: "Aclonica", sans-serif;
+}
+.contact{
+    width: 90%;
+    height: 50vh;
+     border: 1px solid white;
+     margin-left: 10px ;
+     display: flex;
+     gap: 0px;
+     /* justify-content: center; */
+
+
+}
+.contact-image{
+    border: 1px solid green;
+    width: 650px;
+    margin-left: 0px;
+}
+
+.contact-image>img{
+height: 45vh;
+width: 100%;
+
+}
+.contact-details{
+    border: 1px solid red;
+    color:  white;
+    width: 500px;
+    margin-left: 0px;
+    
+    
+}
+.contact-details>p{
+    letter-spacing: 5px;
+    color: red;
+    text-align: left;
+    margin-left: 40px;
+}
+.contact-details>h1>span{
+    font-family: "Aclonica", sans-serif;
+}
+
+
+
