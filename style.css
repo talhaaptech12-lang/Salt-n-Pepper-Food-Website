@@ -100,6 +100,8 @@ nav>.logo>img {
 }
 .hero-section-img>img {
     width: 100%;
+    height: 100%;
+    /* object-fit: cover; */
 }
 
 .main-section-for-cards {
@@ -134,12 +136,16 @@ nav>.logo>img {
     gap: 10px;
 
 }
+.card-image{
+width: 100%;
+height: 90%;
+}
 
 .card>.card-image>img {
     background-color: white;
     width: 100%;
     object-fit: cover;
-    height: 380px;
+    height: 100%;
 }
 
 .card>p {
@@ -268,13 +274,12 @@ nav>.logo>img {
 .weekly-menu-section{
     color: white;
     width: 100%;
-    height: 80vh;
+    /* height: 80vh; */
     display: flex;
     margin-top: 10px;
 }
 .left-weekly-section{
     width: 50%;
-    height: 80vh;
     background-color: #0F0F0F;
     display: flex;
     flex-direction: column;
@@ -283,6 +288,7 @@ nav>.logo>img {
 }
 .weekly-menu-info{
     width: 59%;
+    height: 100%;
     margin-left: 100px;
     margin-top: 100px;
     display: flex;
@@ -332,11 +338,9 @@ nav>.logo>img {
 
 .weekly-menu-img{
     width: 50%;
-    height: 100%;
 }
 .weekly-menu-img>img{
     width: 100%;
-    height: 100%;
     object-fit: cover;
 }
 .footer{
@@ -470,21 +474,77 @@ nav>.logo>img {
    nav>.logo>img {
     height: 50px;
 }
+.hero-section-img{
+    object-fit: cover;
+}
 .links>button{
     width: 80px;
 }
 .links{
-    gap:8px;
+    gap:19px;
 }
     .links>.franchise-btn{
         display: none;
     }
-    .deal-section {
-     flex-direction: column;
-
+  
+.card{
+    height: 100%;
 }
-.deal-info>p{
-    width: 50px;
+.main-section-for-cards{
+height: 50vh;
+}
+  .deal-section {
+    height: 100vh;
+     flex-direction: column;
+}
+.deal-img{
+    width: 100%;
+    height: 50vh;
+    object-fit: cover;
+    
+}
+.deal-info{
+    width: 100%;
+    height: 50vh;
+    padding: 50px 100px 30px 100px;
+    gap: 20px;
+}
+#deal-info-heading{
+    text-align: center;
+}
+
+.deal-info>p,h1{
+    text-align: center;
 } 
+.deal-info>h1{
+    margin-left: 150px;
+}
+.deal-info> .learn-more-btn{
+    margin-left: 190px
+}
+.weekly-menu-section{
+    flex-direction: column;
+    
+}
+.left-weekly-section{
+    width: 100%;
+}
+
+#weekly-info-heading{
+    margin-left: 190px;
+}
+.weekly-menu-img{
+    width: 100%;
+}
+.footer{
+    margin-top: 0px;
+    padding: 10px 10px 15px 10px;
+}
+    
+}
+@media only screen  and (max-width: 425px){
+    .online-order-btn{
+        display: none;
+    }
     
 }
